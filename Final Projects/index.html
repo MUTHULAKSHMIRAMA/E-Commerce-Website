@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="EN">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>E-commerce</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <nav class="nav-bar">
+            <h2 style="text-align:center;">My Shop</h2>
+            <ul>
+                <li><a href="javascript:void(0)" onclick="goHome()">Home</a></li>
+                <li><a href="javascript:void(0)" onclick="goProducts()">Products</a></li>
+                <li><a href="javascript:void(0)" onclick="goContact()">Contact</a></li>
+            </ul>
+            <div>🛒<span id="count">0</span></div>
+        </nav>
+        <div class="home">
+            <img src="./posterimage.png" alt="banner">
+        </div>
+
+        <div class="products">
+
+        <div class="card">
+            <img src="C:\project\Final Projects\images.jpg">
+            <h3>Shirt</h3>
+            <p>$500</p>
+            <button onclick="addToCart()">Add</button>
+        </div>
+
+        <div class="card">
+            <img src="C:\project\Final Projects\images (1).jpg">
+            <h3>Shoes</h3>
+            <p>$1200</p>
+            <button onclick="addToCart()">Add</button>
+        </div>
+
+        <div class="card">
+            <img src="C:\project\Final Projects\download.jpg">
+            <h3>Watch</h3>
+            <p>$800</p>
+            <button onclick="addToCart()">Add</button>
+        </div>
+
+        <div class="card">
+            <img src="C:\project\Final Projects\images (2).jpg">
+            <h3>Bag</h3>
+            <p>$700</p>
+            <button onclick="addToCart()">Add</button>
+        </div>
+
+        <div class="card">
+            <img src="C:\project\Final Projects\images (5).jpg">
+            <h3>Headphone</h3>
+            <p>$1500</p>
+            <button onclick="addToCart()">Add</button>
+        </div>
+
+        <div class="card">
+            <img src="C:\project\Final Projects\green-iphone-wallpaper.webp">
+            <h3>Phone</h3>
+            <p>$10000</p>
+            <button onclick="addToCart()">Add</button>
+
+
+        </div>
+
+        <div class="card">
+            <img src="C:\project\Final Projects\images (6).jpg">
+            <h3>Laptop</h3>
+            <p>$45000</p>
+            <button onclick="addToCart()">Add</button>
+        </div>
+
+        <div class="card">
+            <img src="C:\project\Final Projects\gettyimages-1966141243-612x612.jpg">
+            <h3>Keyboard</h3>
+            <p>$1500</p>
+            <button onclick="addToCart()">Add</button>
+        </div>
+
+        <div class="card">
+            <img src="C:\project\Final Projects\images (7).jpg">
+            <h3>Mouse</h3>
+            <p>$800</p>
+            <button onclick="addToCart()">Add</button>
+        </div>
+
+        <div class="card">
+            <img src="C:\project\Final Projects\pexels-photo-46710 (1).jpeg">
+            <h3>Sunglasses</h3>
+            <p>$600</p>
+            <button onclick="addToCart()">Add</button>
+        </div>
+
+        <div class="card">
+            <img src="C:\project\Final Projects\power-bank-flash-drive-on-260nw-2458106865.webp">
+            <h3>Power Bank</h3>
+            <p>$1200</p>
+            <button onclick="addToCart()">Add</button>
+        </div>
+
+        <div class="card">
+            <img src="C:\project\Final Projects\images (9).jpg">
+            <h3>Speaker</h3>
+            <p>$2000</p>
+            <button onclick="addToCart()">Add</button>
+        </div>
+        </div>
+
+        <div class="contact" id="contact">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+            <input type="text" placeholder="Your Name"><br>
+            <input type="Email" placeholder="Email"><br>
+            <textarea placeholder="Message"></textarea><br>
+            <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        
+        
+    
+        <script src="./script.js"></script>
+    </body>
+
+</html>
